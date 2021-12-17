@@ -37,19 +37,24 @@ return [
                             [
                                 'test' => '@mode = \'album\'',
                                 'iframe'  => [
+									'width'  => 380,
+            						'height' => 450,
                                     'src'    => '//music.163.com/outchain/player?type=1&id={@id}&auto=0&height=450'
                                 ]
                             ],
                             [
                                 'test' => '@mode = \'song\'',
                                 'iframe'  => [
-                                    'height' => 155,
+            						'width'  => 380,
+            						'height' => 86,
                                     'src'    => '//music.163.com/outchain/player?type=2&id={@id}&auto=0&height=66'
                                 ]
                             ]
                         ],
                         'otherwise' => [
                             'iframe'  => [
+            					'width'  => 380,
+            					'height' => 450,
                                 'src'    => '//music.163.com/outchain/player?type=0&id={@id}&auto=0&height=450'
                             ]
                         ]
@@ -75,6 +80,8 @@ return [
 						"!b23\.tv/(/av(?'aid'[-0-9]+))|(/BV(?'bvid'[-0-9A-Z_a-z]+))(/p(?'pn'[-0-9]+))?!"
 					],
 					'iframe' => [
+                        'width'  => 760,
+                        'height' => 450,
 						'src'  => '//player.bilibili.com/player.html?aid={@aid}&bvid={@bvid}&page={@pn}'
 					]
 				]
