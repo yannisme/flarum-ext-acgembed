@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace LCinHK\Acgembed;
+namespace Yannisme\Acgembed;
 
 use Flarum\Extend;
 use s9e\TextFormatter\Configurator;
