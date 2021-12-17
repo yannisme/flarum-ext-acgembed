@@ -1,13 +1,13 @@
 {
-  "name": "lcinhk/flarum-ext-acgembed",
-  "description": "Add acfun.cn and bilibili.com in mediaembed",
+  "name": "yannisme/flarum-ext-acgembed",
+  "description": "在社区中可添加网易云,A/B站等媒体内容",
   "keywords": [
     "flarum"
   ],
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^0.1.0-beta.8"
+    "flarum/core": "*"
   },
   "authors": [
     {
